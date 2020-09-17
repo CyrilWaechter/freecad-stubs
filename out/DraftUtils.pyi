@@ -1,0 +1,3 @@
+from typing import Any
+
+def readDXF(*args, **kwargs) -> Any: ...

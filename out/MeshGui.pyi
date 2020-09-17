@@ -1,0 +1,3 @@
+from typing import Any
+
+def convertToSTL(*args, **kwargs) -> Any: ...
