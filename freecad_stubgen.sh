@@ -1,5 +1,5 @@
 #!bin/bash
-# Do not use : first attempt which generate less complet stubs. File for 
+# Do not use : first attempt which generate less complet stubs.
 stubgen \
     -m FreeCAD \
     -m __FreeCADBase__ \

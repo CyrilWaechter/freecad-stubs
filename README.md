@@ -2,7 +2,7 @@
 This project use [mypy.stubgen](https://github.com/python/mypy/blob/master/mypy/stubgen.py) to generate stubs for FreeCAD modules
 
 # Usage
-1. Clone repo : `git clone `
+1. Clone repo : `git clone https://github.com/CyrilWaechter/freecad-stubs.git`
 2. Make sure your IDE check `/out` for stubs. eg. for vscode/code-oss you can create an `.env` file
 at workspace root to allow your linter / auto-completer (eg. pylint /  jedi) 
 ```shell
