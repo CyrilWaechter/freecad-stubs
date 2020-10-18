@@ -11,6 +11,15 @@ FREECAD_STUBS=/home/<user>/git/freecad-stubs/out
 PYTHONPATH=${FREECAD_STUBS}:${FREECAD_LIB}:${PYTHONPATH}
 ```
 
+# Context
+This stubs generator was developed as part of a FreeCAD community effort to make development 
+around FreeCAD easier. See :
+* [Type-checked Python](https://forum.freecadweb.org/viewtopic.php?t=49917)
+* [Please demonstrate using a remote text editor to substitute the Python editor in FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=8&t=40673)
+
+You might also want to checkout [Vanuan / freecad-python-stubs](https://github.com/Vanuan/freecad-python-stubs) which might superseed this 
+repository at some point.
+
 # Known issues
 * Do not generate stubs for some submodules :
     * FreeCAD.Units
